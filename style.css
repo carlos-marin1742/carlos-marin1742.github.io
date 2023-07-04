@@ -1,116 +1,138 @@
 
 * {
-    box-sizing: border-box;
-  }
-  
-  @import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
-  
-  nav:li {
-    display:inline-block;
-    position:fixed;
-  }
+  box-sizing: border-box;
+}
 
-  .gmail img {
-    width: 100px;
-  }
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
 
-  .Linkedin img {
-    width: 100px;
-  }
+nav:li {
+  display:inline-block;
+  position:fixed;
+}
 
-  .Github img{
-    width: 185px;
-  }
+.gmail img {
+  width: 100px;
+}
 
-  #Data-Science {
-    display: flex;
-    border: 250px;
-    justify-content: space-evenly;
-    width: 100%
-  }
-  
+.Linkedin{
+  border:none;
+}
+.Linkedin img {
+  width: 100px;
+}
+
+.Github img{
+  width: 185px;
+}
+
+#Data-Science {
+  display: flex;
+  border: 250px;
+  justify-content: space-evenly;
+  width: 100%
+}
+
 #blank {
-  height:100px;
+height:100px;
 }
 
-  body {
-  background-color: #FFE53B;
-  background-image: linear-gradient( #37D5D6, #36096D);
-  min-height: 100vh;
-  font-family: 'Fira Sans', sans-serif;
-  /*display: flex;*/
-  display: block;
-  font-family: 'Fira Sans', sans-serif;
-  }
-  
+body {
+background-color: #FFE53B;
+background-image: linear-gradient( #37D5D6, #36096D);
+min-height: 100vh;
+font-family: 'Fira Sans', sans-serif;
+/*display: flex;*/
+display: block;
+font-family: 'Fira Sans', sans-serif;
+}
+
 .Profiles {
-    display: flex;
-      justify-content: space-evenly;
+  display: flex;
+    justify-content: space-evenly;
 }
 
-  p{
-    line-height: 0.95;
-    word-spacing: 2px;
-    white-space:normal;
-  }
-  
-  h1 {
-    font-size: 250%;
-    text-align: center;
-  }
-  
-  i {
-    font-size: 125%
-  }
-  
-  
-  .About_Me {
-    text-align: center;
-  }
-  
-  
-  /* make div clickable, DO NOT DELETE*/
-  .link {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1;
-  }
-  
-  
-  .box-container {
-    width: 300px;
-    padding: 20px;
-    background-color: white;
-    border: 5px solid gray;
-    /*position: relative;*/
-    cursor: pointer; 
-    height: 685px;
-  }
-  
+p{
+  line-height: 0.95;
+  word-spacing: 2px;
+  white-space:normal;
+}
+
+h1 {
+  font-size: 250%;
+  text-align: center;
+}
+
+i {
+  font-size: 125%
+}
 
 
-  .box-container:hover {
-    transform: scale(1.15)
-  }
-  
-  
-  .box-image img {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  .box-text {
-    margin-top: 10px;
-    text-align: center;
-    /*font-weight: bold;*/
-  }
+.About_Me {
+  text-align: center;
+}
 
 
- .box-text p{
-    padding-bottom: -100.5em;
+
+
+
+.box-container {
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  border: 5px solid gray;
+  /*position: relative;*/
+  /*cursor: pointer; */
+  /*height: 685px;*/
+  height: 725px;
+}
+
+
+
+
+.box-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.box-text {
+  margin-top: 10px;
+  text-align: center;
+  /*font-weight: bold;*/
+}
+
+
+.box-text p{
+  padding-bottom: -100.5em;
+}
+
+
+/* CSS */
+.button-43 {
+  background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  padding: 1rem 1.75rem;
+  text-decoration: none;
+  width: 100%;
+  border: 0;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-43:hover {
+  background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+}
+
+@media (min-width: 768px) {
+  .button-43 {
+    padding: 1rem 2rem;
   }
+}
