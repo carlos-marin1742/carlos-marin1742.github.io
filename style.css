@@ -10,19 +10,54 @@ nav:li {
   position:fixed;
 }
 
+#BIO {
+  margin:auto;
+  position: relative;
+  align-items: center;
+  text-align: center;
+}*/
+
+.About_Me {
+  margin: 5%; 
+  padding: 2%;
+  text-align: center;
+}
+
+.image-container img{
+  width: 250px;
+}
+
+.bio-text{
+  width: 400px;
+  text-align: center;
+  margin: auto;
+}
+
+.bio-text p{
+  font-size: 110%;
+}
+
+#DATA-SCIENCE-PROJECTS {
+ text-align: center;
+}
+
+
+.Profiles {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width:auto;
+}
 .gmail img {
   width: 100px;
 }
 
-.Linkedin{
-  border:none;
-}
 .Linkedin img {
   width: 100px;
 }
 
 .Github img{
-  width: 185px;
+  width: 165px;
 }
 
 #Data-Science {
@@ -82,8 +117,8 @@ i {
   border: 5px solid gray;
   /*position: relative;*/
   /*cursor: pointer; */
-  /*height: 685px;*/
-  height: 725px;
+  height: 650px;
+  /*height: 725px;*/
 }
 
 
@@ -91,7 +126,7 @@ i {
 
 .box-image img {
   width: 100%;
-  height: auto;
+  height: 125px;
   display: block;
   margin-bottom: 10px;
 }
